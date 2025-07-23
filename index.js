@@ -16,6 +16,9 @@ var hello = () => () => () => (() => {
 });
 
 
+console.log("Bye iam de updating");
+
+
 var sayGooBye = ()=>{
     return{
         ByeBye: ()=>{
