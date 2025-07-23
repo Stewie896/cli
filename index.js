@@ -23,7 +23,7 @@ var sayGooBye = ()=>{
         }
     }
 }
-
+console.log("Hello iam teh fethed change");
 var val = hello()()()().j();console.log(val);
 var bye = sayGooBye().ByeBye();
 console.log(val)
