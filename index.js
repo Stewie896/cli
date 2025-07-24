@@ -94,3 +94,5 @@ console.log("Heloo");
 //                 show all files diff when -S is used and hit is found.
 //   -a  --text    treat all files as text.
 
+console.log("Does it execute");
+console.log("Perfroming test 1")
