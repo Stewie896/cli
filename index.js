@@ -96,3 +96,4 @@ console.log("Heloo");
 
 console.log("Does it execute");
 console.log("Perfroming test 1")
+console.log("Action getting performed")
