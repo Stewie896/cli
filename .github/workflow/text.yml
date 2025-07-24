@@ -1,0 +1,25 @@
+name: "Test action workflow"
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  fun_shellScripting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Testing"
+        run: echo "Hello, I am testing 1234"
+
+      - name: "If test completed"
+        run: |
+          ls -a
+          mkdir Hello
+          cd Hello
+          touch index.txt
+
+      - name: "Exit"
+        run: |
+          echo "Exiting script"
+          exit 0
